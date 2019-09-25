@@ -1,0 +1,13 @@
+
+config {
+
+}
+
+tale {
+    start :
+}
+
+chapter {
+    name : ch0
+    start :
+}

@@ -4,9 +4,12 @@ pub mod io;
 
 pub trait Turn {}
 
-pub struct Story {
-
+pub struct Tale {
+    start : Chapter,
+    config : Config,
 }
+
+pub struct Config {}
 
 pub struct Chapter {
     pages : Vec<Page>
