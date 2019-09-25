@@ -1,13 +1,27 @@
-
-config {
-
-}
-
 tale {
-    start :
+    start : test
+    bla : blub
+    beep : boop
 }
 
-chapter {
-    name : ch0
-    start :
+chapter : c1 {
+    page : p1 {
+        title : name
+        type : next
+        content : "Here's a lot of stuff, ya know. Pretty cool"
+    }
+
+    page : p2 {
+        title : name
+        type : next
+        content : "Here's some content with evil escape characters: kek"
+    }
+
+    page : p3 {
+        title : name
+        type : next
+        content : "And here's some stuff with a line break
+        - fucking hell. But what about \
+        blank space?"
+    }
 }
